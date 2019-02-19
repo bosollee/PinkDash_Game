@@ -3,8 +3,6 @@
 private var life : int = 100;
 public var score :  int = 0;
 
-
-
 function CatchCoin(amount : int)
 {
 	score += amount;

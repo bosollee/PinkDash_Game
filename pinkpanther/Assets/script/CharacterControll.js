@@ -33,10 +33,6 @@ function Update()
 		transform.LookAt(transform.position+Vector3.right);
 		}
 	}
-	else
-	{
-	}
-
 	velocity.y-=gravity*Time.deltaTime;
 	controller.Move(velocity*Time.deltaTime);
 }
